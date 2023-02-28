@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styless.css">
+</head>
+<body>
+    <div class="contenedor-h">
+     <header>
+    <div class="logo">
+        <a href="#">Xavi</a>
+    </div>
+    <nav id="nav">
+        <ul>
+            <li><a href="#inicio" onclick="seleccionar()">inicio</a></li>
+            <li><a href="#sobremi" onclick="seleccionar()">sobre mi</a></li>
+            <li><a href="#skills" onclick="seleccionar()">skills</a></li>
+            <li><a href="#curriculum" onclick="seleccionar()">curriculum</a></li>
+            <li><a href="#portfolio" onclick="seleccionar()">portfolio</a></li>
+            <li><a href="#contacto" onclick="seleccionar()">contacto</a></li>
+        </ul>
+    </nav>
+    <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+        <i class="fa-solid fa-bars"></i>
+    </div>
+    </header>
+    </div>
+    
+    <!-- inicio -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/Captura de pantalla 2023-02-01 160823.png" alt="xavi">
+            </div>
+            <h1>Xavi Clavé</h1>
+            <h2>Desarrollador web</h2>
+            <div class="redes">
+                <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://twitter.com/home"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.behance.net/"><i class="fa-brands fa-behance"></i></a>
+                <a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- sobre mi-->
+    <section id="sobremi" class="sobremi">
+        <div>
+            <h2>Sobre Mi</h2>
+            <p><span>Hola, soy Xavier Clavé</span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur sed sapiente, cum obcaecati id veniam voluptate sint accusamus, perspiciatis illum eveniet soluta fuga, quas corrupti porro. Dignissimos harum porro reiciendis!</p>
+        </div>
+        <div class="fila">
+            <div class="col">
+                <h3>Datos Personales</h3>
+                <ul>
+                    <li>
+                        <strong>Cumpleaños</strong>
+                        06/05/1994
+                    </li>
+                    <li>
+                        <strong>Teléfono</strong>
+                        3491441912
+                    </li>
+                    <li>
+                        <strong>Email</strong>
+                        xavierclave32@gmail.com
+                    </li>
+                </ul>
+            </div>
+            <div class="col">
+                <h3>Interteses</h3>
+                <div class="contenedor-intereses">
+                    <div class="interes">
+                        <i class="fa-solid fa-gamepad"></i>
+                        <span>Videojuegos</span>
+                    </div>
+                    <div class="interes">
+                        <i class="fa-solid fa-headphones"></i>
+                        <span>Musica</span>
+                    </div>
+                    <div class="interes">
+                        <i class="fa-solid fa-plane"></i>
+                        <span>Viajar</span>
+                    </div>
+                    <div class="interes">
+                        <i class="fa-solid fa-palette"></i>
+                        <span>Arte</span>
+                    </div>
+                    <div class="interes">
+                        <i class="fa-solid fa-futbol"></i>
+                        <span>Futbol</span>
+                    </div>
+                    <div class="interes">
+                        <i class="fa-solid fa-microchip"></i>
+                        <span>Tecnologia</span>
+                    </div>
+                </div>
+            </div>
+            <button>
+                Descargar CV <i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+            </button>
+        </div>
+    </section>
+
+    <!-- skills -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skills">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso javascript">
+                                <span>30%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso htmlcss">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills">
+                        <span>React JS</span>
+                        <div class="barra-skill">
+                            <div class="progreso reactjs">
+                                <span>30%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills">
+                        <span>Photoshop</span>
+                        <div class="barra-skill">
+                            <div class="progreso photoshop">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills">
+                        <span>Illustrator</span>
+                        <div class="barra-skill">
+                            <div class="progreso illustrator">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills">
+                        <span>After effects</span>
+                        <div class="barra-skill">
+                            <div class="progreso aftereffects">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills">
+                        <span>Premiere</span>
+                        <div class="barra-skill">
+                            <div class="progreso premiere">
+                                <span>60%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills">
+                        <span>Frigma</span>
+                        <div class="barra-skill">
+                            <div class="progreso frigma">
+                                <span>60%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills">
+                        <span>Cinema 4D</span>
+                        <div class="barra-skill">
+                            <div class="progreso cinema">
+                                <span>40%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- curriculum -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Photoshop e Illustrator</h4>
+                        <span class="casa">Coderhouse </span>
+                        <span class="fecha"> 2021 </span>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                     <div class="item izq">
+                        <h4>Photoshop avanzado</h4>
+                        <span class="casa">Domestika </span>
+                        <span class="fecha"> 2021 </span>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                     <div class="item izq">
+                        <h4>Community Manager</h4>
+                        <span class="casa">Coderhouse </span>
+                        <span class="fecha"> 2021 </span>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                     <div class="item izq">
+                        <h4>Growth Marketing</h4>
+                        <span class="casa">Coderhouse </span>
+                        <span class="fecha"> 2021 </span>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                     <div class="item izq">
+                        <h4>Desarrollo Web </h4>
+                        <span class="casa">Coderhouse </span>
+                        <span class="fecha"> 2011 </span>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Experiencia laboral</h3>
+                    <div class="item der">
+                        <h4>Ábaco librería</h4>
+                        <span class="casa"> </span>
+                        <span class="fecha">2017-2019</span>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- portfolio -->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>Portfolio</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="img/angel.png" alt="angel dark">
+                    <div class="overlay">
+                        <h3>Diseño creativo</h3>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/mujerAbstFinal.png" alt="mujer">
+                    <div class="overlay">
+                        <h3>Diseño creativo</h3>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/Nightmare.png" alt="nightmare">
+                    <div class="overlay">
+                        <h3>Diseño creativo</h3>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/new.png" alt="new">
+                    <div class="overlay">
+                        <h3>Diseño creativo</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- contacto -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>Contacto</h2>
+            <div class="fila">
+                <div class="col">
+                    <input type="text" placeholder="Nombre">
+                    <input type="text" placeholder="Número telefónico">
+                    <input type="text" placeholder="Dirección de correo">
+                    <input type="text" placeholder="Tema">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button>
+                        Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+            </div>
+            <div class="col">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d54361.22251625738!2d-60.74127647401783!3d-31.618064831184654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b5a9adc40888e1%3A0xdcf7761e8d02804a!2sSanta%20Fe!5e0!3m2!1ses!2sar!4v1677520285855!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <div class="info">
+                    <ul>
+                        <li>
+                            <i class="fa-solid fa-location-dot"></i>
+                            Santa Fe, Santa fe.
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-mobile-screen"></i>
+                            cel: 3491441912
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-envelope"></i>
+                            Email: xavierclave32@gmail.com
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-behance"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
